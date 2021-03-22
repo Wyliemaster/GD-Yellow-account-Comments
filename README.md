@@ -22,3 +22,11 @@ In regards to comments, there are `3` main checks that determine colour
 - isLevelOwner
 
 The `isLevelOwner` check is what allows this to happen. The condition is `if(commentAuthorUid == levelAuthorUid)` however, since account comments don't return a Uid, the check is essentially `if(undefined == levelAuthorUid)`. By injecting a level which allows this condition to be true, you can then get yellow account comments.
+
+### Credits
+
+- [Cvolton](https://github.com/Cvolton/) - Providing a sample of save data with this bug
+
+- [ZMX](https://github.com/kyurime) - Help with research
+
+- [Shira](https://github.com/shirasyu) - Help with research
