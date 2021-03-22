@@ -1,7 +1,6 @@
 const crypto = require(__dirname + '/crypto.js')
 const fs = require('fs')
 
-//decoding save
 try {
     let save = crypto.decodeSave('CCGameManager.dat')
 
@@ -22,4 +21,3 @@ try {
 catch (e) {
     if (e) return console.log('Please supply a valid save file')
 }
-// console.log(save)
