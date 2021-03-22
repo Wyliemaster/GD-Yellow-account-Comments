@@ -1,5 +1,9 @@
 # GD Yellow account Comments
- a save injector which allows you to have yellow account comments
+ A save injector which allows you to have yellow account comments
+
+## How To Use
+
+Place your CCGameManager file next to the `run.bat` file and then run, a folder called `build` will be generated which then has your new CCGameManager file. You then replace all instances of CCGameManager from appdata with this and then your account comments will be yellow!
 
  ## What does this do?
 
