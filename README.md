@@ -5,6 +5,8 @@
 
 Place your CCGameManager file next to the `run.bat` file and then run, a folder called `build` will be generated which then has your new CCGameManager file. You then replace all instances of CCGameManager from appdata with this and then your account comments will be yellow!
 
+**Dont forget to backup before trying this incase something happens**
+
  ## What does this do?
 
  Generally, account comments in geometry dash are hard-coded to not change colour at all however, due to an incredibly dumb oversight by mister topala, it is possible to give yourself yellow account comments. An example is shown below
